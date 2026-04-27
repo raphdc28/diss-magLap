@@ -1,0 +1,8 @@
+This repository contains the notebooks used to generate the figures in my dissertation. 
+This includes code for the nested RGM and cyclic SBM that were introduced in Section 3.4.1 and Section 4.2 respectively. Below is a short description of each file: <br>
+<br>•	<b>Coupled Cycle Examples.ipynb</b> – contains most of the example plots from Section 3 of the dissertation. This includes the code to define nested, bridge coupled and vertex-sharing coupled cycles.
+<br>•	<b>Nested RGM.ipynb</b> – here, we introduce the nested RGM. We write functions to generate the random graph model, using it to understand how our perturbation assumptions break down and how exactly this happens.
+<br>•	<b>SBM generator.ipynb</b> – we introduce the cyclic SBM in this notebook. In the first section, we provide visualisations that are used in the main body of the dissertation, and then we run trials that show how noise reduces the efficacy of the spectral gap criterion.
+<br>•	<b>Empirical Spectral Gap Calculator.ipynb</b> – code to calculate the spectral gap for varying $r$ and generate accompanying plots. We work here with the empirical graphs for the Florida Bay food web [21] and Motueka influence matrix [6]. Data here can be found in the attached .csv files.
+<br>•	<b>SBM for empirical graphs.ipynb</b> – contains a modified version of the cyclic SBM. This helps us understand whether the spectral gap criterion is suitable for the empirical Motueka and Florida network examples.
+<br>•	<b>floridaFoodWeb.csv and iMatrix_submatrix_manual.csv</b> – Data files containing the largest components from the Florida Bay food web [21] and Motueka influence matrix [6] analysed in Section 4.3.
